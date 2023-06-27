@@ -1,8 +1,7 @@
 /*
- * Add Two Numbers
+ * Multiplication of two Numbers
  *
- * Write a C++ Program to C++ Program to Add Two Numbers. Here’s simple Program to
- * Add Two Numbers in C++ Programming Language.
+ * Write a C++ Program to Multiply two Numbers.
  */
 #include <iostream>
 
@@ -16,8 +15,8 @@ int main()
     cin >> a;
     cout << "Enter the second number: ";
     cin >> b;
-    result = a + b;
-    cout << "The sum result is: " << result << endl;
+    result = a * b;
+    cout << "The multiply result is: " << result << endl;
 
     return 0;
 }
